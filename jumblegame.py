@@ -89,6 +89,7 @@ def reset():
     global score,count,word
     entry.delete(0,END)
     main.after_cancel(current)
+    entry.delete(0, END)
     score = 0
     count = 0
     word = ""
